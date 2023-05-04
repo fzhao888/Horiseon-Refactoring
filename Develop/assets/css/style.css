@@ -18,10 +18,10 @@ body {
     color: #ffffff;           
 }
 
-/**styles h1 elements  inside header */
+/**styles h1 elements inside header */
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 48px;  
 }
 
 /**styles seo element of h1 element inside header */
