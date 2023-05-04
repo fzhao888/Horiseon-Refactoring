@@ -1,13 +1,16 @@
+/**Styles all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/**Styles body */
 body {
     background-color: #d9dcd6;
 }
 
+/**styles header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/**styles h1 elements inside header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/**styles seo element of h1 element inside header */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/**Styles div elements inside header */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,25 +38,30 @@ body {
     font-size: 20px;
 }
 
+/**Styles unordered list of div inside header */
 .header div ul {
     list-style-type: none;
 }
 
+/**Styles the list items of unordered list of div inside header */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/**Styles all links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/**Styles all paragraphs */
 p {
     font-size: 16px;
 }
 
-.hero {
+/**Styles the image directly below the header*/
+.headerImg {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,22 +70,90 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/**styles the content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+
+/**used to style search-engine-optimization image and social-media-marketing image to the left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/**styles the search engine optimization subsection*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/**styles the search-engine-optimization image*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/**styles search-engine-optimiization subsection title*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+} 
+
+/**styles the social media marketing subsection */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/**styles the social media marketing subsection image */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/**styles the social media marketing subsection title */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/**used to style online-reputation-management image to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/**styles online reputation management subsection text */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/**styles online reputation management subsection image*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/**styles online reputation managment subsection title */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/**styles benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,107 +165,63 @@ p {
     background-color: #2589bd;
 }
 
+/**styles lead subsection of benefits */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/**styles lead subsection title - lead generation */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/**styles lead subsection image*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/**styles brand subsection of benefits */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/**styles brand subection title - brand awareness */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/**styles brand subsection image */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/**styles cost subsection of benefits */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/**styles cost subsection title - cost management*/
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/**styles cost subsection image */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+ 
+/**styles the footer */
 
 .footer {
     padding: 30px;
@@ -195,6 +230,7 @@ p {
     text-align: center;
 }
 
+/** styles the "Made with <3 By Horiseon" inside the footer */
 .footer h2 {
     font-size: 20px;
 }
