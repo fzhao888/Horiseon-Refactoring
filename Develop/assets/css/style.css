@@ -15,13 +15,13 @@ body {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: #ffffff;           
 }
 
 /**styles h1 elements inside header */
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 48px;  
 }
 
 /**styles seo element of h1 element inside header */
@@ -29,8 +29,8 @@ body {
     color: #d9dcd6;
 }
 
-/**Styles div elements inside header */
-.header div {
+/**Styles nav elements  inside header */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,12 +39,12 @@ body {
 }
 
 /**Styles unordered list of div inside header */
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
 /**Styles the list items of unordered list of div inside header */
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
