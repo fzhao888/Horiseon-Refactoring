@@ -12,11 +12,11 @@ N/A
 
 ## Usage
 
-To use this website, simply visit https://fzhao888.github.io/Horiseon-Refactoring/ . In the nav bar, by selecting either Search Engine Optimization, Online Reputation Management, and Social Media Marketing tabs,  we can view our selected section. 
+To use this website, simply visit https://fzhao888.github.io/Horiseon-Refactoring/ . In the nav bar, by selecting either Search Engine Optimization, Online Reputation Management, and Social Media Marketing tab,  we can view our desired section. 
 
 Here is a screenshot of the website:
 
-![screenshot of website](assets/images/fzhao888.github.io_Horiseon-Refactoring)
+![screenshot of website](assets/images/fzhao888.github.io_Horiseon-Refactoring.png)
 
 ## Credits
 The starter code for this project was obtained at https://github.com/coding-boot-camp/urban-octo-telegram. 

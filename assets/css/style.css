@@ -29,7 +29,7 @@ body {
     color: #d9dcd6;
 }
 
-/**Styles nav elements  inside header */
+/**Styles nav elements inside header */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -230,7 +230,7 @@ p {
     text-align: center;
 }
 
-/** styles the "Made with <3 By Horiseon" inside the footer */
+/** styles the "Made with <3 By Horiseon"  inside the footer */
 .footer h2 {
     font-size: 20px;
 }
